@@ -1,0 +1,77 @@
+
+body{
+    font-family: sans-serif, arial;
+    background: linear-gradient(to right, rgb(207, 10, 207), rgb(105, 105, 231));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 100%;
+}
+
+.drive{
+    display: flex;
+    flex-direction: column;
+}
+
+.drive h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.content input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gender{
+    margin-top: 15px;
+}
+
+.gender label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.gender div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender input{
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    background: linear-gradient(to right, rgb(206, 26, 206), rgb(105, 105, 231));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+button:hover{
+    background: linear-gradient(to right, rgb(206, 26, 206), rgb(105, 105, 231));
+}
